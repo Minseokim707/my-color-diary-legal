@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>개인정보처리방침 (초안)</title>
+<style>
+  :root { --bg: #0D0528; --panel: #1a0f40; --ink: #ECE8F4; --sub: #9a92bd; --line: #2c1f5c; --todo: #FEA302; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--sub); font-size: 13px; }
+  .draft { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 16px 0; font-size: 14px; }
+  .todo { color: var(--todo); font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 8px 0; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
+  th { color: var(--sub); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보처리방침</h1>
+  <p class="meta">My Color Diary(가칭) · 시행일 <span class="todo">[미정]</span></p>
+  <div class="draft">
+    이 문서는 <b>초안</b>이에요. 아직 정하지 않은 곳은 <span class="todo">[미정]</span>으로 표시했어요.
+    보관 기간을 정하고(조각 21) 전문가 확인을 거친 뒤 확정해요.
+  </div>
+
+  <h2>1. 모으는 정보</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>언제</th><th>항목</th></tr>
+    <tr><td>가입할 때</td><td>이메일, 생년월일, 성별(남자·여자·선택 안 함), 국가·지역, 언어, 닉네임</td></tr>
+    <tr><td>앱을 쓸 때 저절로</td><td>시간대(앱을 켤 때 휴대폰 시간대를 받아 바뀌면 저장), 최근 24시간 안에 시간대를 바꾼 때, 가입·닉네임 변경·공지 확인·계정 삭제 요청 같은 계정 상태와 그 시각</td></tr>
+    <tr><td>기록할 때</td><td>카드의 색과 메모, 공개 여부, 기록한 시각과 날짜·시차, 쓴 언어. 컬러휠로 만든 카드의 이름·색과 만든 때·장수</td></tr>
+    <tr><td>World·매직룸</td><td>World에 놓은 자리와 때, 매직룸에 올린 카드(이름·색·올린 때·사용자 수), 매직룸 카드를 빌려 쓴 기록, 새 카드 노출 기록, 내 매직룸 방</td></tr>
+    <tr><td>사람 사이</td><td>파동(보낸 사람·카드·때)과 In/Out 합계, 차단 목록, 신고(신고한 사람·카드·사유·처리 결과)</td></tr>
+    <tr><td>설정</td><td>알림 켜고 끄기, 앱 안 알림</td></tr>
+    <tr><td>계정을 삭제할 때</td><td>삭제 이유(7개 중 하나)와 고른 날짜. <b>계정과 연결하지 않고</b> 이유와 날짜만 따로 모아요(누가 골랐는지 알 수 없어요)</td></tr>
+    <tr><td>문의할 때</td><td>보내 주신 메일 주소와 내용, 메일 맨 아래의 앱 버전·iOS 버전 <span class="todo">[문의 메일 주소 미정]</span></td></tr>
+  </table>
+  </div>
+  <p>만 14세 미만이면 가입할 수 없고, 그때 입력한 생년월일은 저장하지 않으며 코드를 받으려고 입력한 이메일 계정도 바로 지워요.</p>
+
+  <h2>2. 왜 모으나</h2>
+  <ul>
+    <li>로그인과 계정 확인(이메일)</li>
+    <li>만 14세 확인, 연령·성별 통계(생년월일, 성별)</li>
+    <li>카드에 국기·닉네임 표시, 앱 표시 언어(국가·지역, 닉네임, 언어)</li>
+    <li>하루 기준(하루 기록 한도, 캘린더)과 카드의 현지 시간 표시(시간대). 시간대를 바꾼 때는 하루 한도를 넘지 못하게 하려고 최근 24시간 것만 남겨요</li>
+    <li>기록·World·매직룸·파동 같은 앱의 기능</li>
+    <li>신고·차단·자동 필터와 운영(아래 6)</li>
+    <li>앱을 더 낫게 만들기(계정 삭제 이유)</li>
+  </ul>
+
+  <h2>3. 다른 사용자에게 보이는 정보</h2>
+  <ul>
+    <li>닉네임과 국기, 카드의 색과 기록한 시각</li>
+    <li>공개 카드의 메모. 비공개 카드는 다른 사람에게 색만 보여요</li>
+    <li>매직룸에 올린 카드의 이름·색과 사용자 수</li>
+    <li>이메일, 생년월일, 성별, 시간대는 다른 사용자에게 보이지 않아요</li>
+  </ul>
+
+  <h2>4. 얼마나 보관하나</h2>
+  <ul>
+    <li><b>계정 삭제</b>: 삭제를 요청하면 30일 동안 유예하고, 그 안에 다시 로그인해 복구할 수 있어요. 30일이 지나면 계정 정보(이메일, 생년월일, 성별, 국가·지역, 언어, 닉네임, 시간대, 설정, 차단 목록, 컬러휠 카드, 대여 기록 등)를 지워요.</li>
+    <li><b>계정을 지운 뒤 남는 것</b>: World에 놓은 카드와 매직룸에 올린 카드는 남아요. 이 카드에는 닉네임과 국기가 보이지 않고 색과 메모만 보여요(비공개 카드의 메모는 그대로 가려져요). World에 놓지 않은 카드(캘린더에만 있는 카드, 비공개 카드 포함)는 지워요. 남는 카드의 보관 기간은 <span class="todo">[미정]</span>이에요.</li>
+    <li><b>첫 설정을 끝내지 않은 계정</b>: 가입을 시작하고 7일이 지나면 지워요.</li>
+    <li>계정 삭제 이유: 계정과 연결하지 않아요. 보관 기간 <span class="todo">[미정]</span></li>
+    <li>신고·자동 필터·운영자 처리 기록, 앱 안 알림: 보관 기간 <span class="todo">[미정]</span>. 계정을 지우면 신고한 사람과의 연결은 끊어요.</li>
+    <li>서버 기록(로그)에 남는 항목과 기간: <span class="todo">[미정, 출시 전 확인]</span></li>
+  </ul>
+
+  <h2>5. 휴대폰에만 두는 정보</h2>
+  <p>로그인 상태, 고른 언어, 효과·소리·진동 설정, 마지막으로 받은 매직룸 방은 휴대폰에만 저장해요. 휴대폰의 언어·지역은 처음 선택을 미리 골라 두는 데만 읽고 저장하지 않아요. 로그아웃하거나 앱을 지우면 사라져요(고른 언어는 로그아웃해도 남아요).</p>
+
+  <h2>6. 운영과 자동 필터</h2>
+  <ul>
+    <li>메모를 저장할 때 정해진 단어 목록으로 자동 필터를 거쳐요. 걸린 메모는 다른 사람에게 가려질 수 있어요.</li>
+    <li>운영자는 신고되거나 필터에 걸린 카드의 메모를 <b>비공개 카드라도</b> 볼 수 있어요(운영 확인용).</li>
+    <li>운영자는 서버의 모든 정보를 볼 수 있어요. 운영 외의 목적으로 쓰지 않아요.</li>
+  </ul>
+
+  <h2>7. 정보를 맡기는 곳</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>곳</th><th>맡기는 것</th></tr>
+    <tr><td>Supabase (서버, 서울 지역)</td><td>위 서버 정보 전체, 로그인 기록</td></tr>
+    <tr><td>메일 보내기 서비스 <span class="todo">[미정]</span></td><td>로그인 코드를 보낼 이메일 주소</td></tr>
+  </table>
+  </div>
+  <p>나라 밖으로 옮겨지는지와 그 내용: <span class="todo">[미정, 전문가 확인]</span></p>
+
+  <h2>8. 이용자의 권리</h2>
+  <ul>
+    <li>닉네임·국가는 앱의 마이 &gt; 계정 관리에서 바꿀 수 있어요(닉네임은 14일에 한 번).</li>
+    <li>이메일도 계정 관리에서 바꿀 수 있어요(지금 주소와 새 주소 모두 확인).</li>
+    <li>계정은 마이 &gt; 계정 관리 &gt; 계정 삭제에서 지울 수 있어요.</li>
+    <li>생년월일을 고치거나, 그 밖에 내 정보를 보거나 고치고 싶으면 문의 메일로 알려 주세요 <span class="todo">[문의 메일 주소 미정]</span>.</li>
+  </ul>
+
+  <h2>9. 운영자와 문의</h2>
+  <p>운영자: <span class="todo">[미정]</span> · 문의: <span class="todo">[미정]</span></p>
+
+  <h2>10. 바뀔 때</h2>
+  <p>이 방침이 바뀌면 앱 안 공지사항으로 알려요. 알리는 시점과 방법: <span class="todo">[미정]</span></p>
+</main>
+</body>
+</html>
